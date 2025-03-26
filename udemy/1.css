@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 91px;
+    height: 34px;
+}
+header{
+    display: flex;
+    padding: 12px 20px 10px 20px;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.3);;
+}
+header ul{
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.85rem;
+    align-items: center;
+}
+header li{
+    list-style: none;
+    margin: 0 8px;
+}
+.search{
+    border: 1px solid black;
+    width:521px;
+    height: 46px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246,249,250);
+}
+.search div{
+    position: relative;
+    left: 29px;
+    color: rgb(107,112,116);
+}
+.search img{
+    width: 18px;
+    position: relative;
+    left: 10px;
+}
+.login,.signup{
+    border: 1px solid black;
+    width: 80px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login div{
+    font-weight: bold
+}
+.signup{
+    background-color: black;
+}
+.signup div{
+    color: white;
+    font-weight: bold;
+}
+.browse{
+    border: 1px solid black;
+    height: 38px;
+    display: flex;
+    align-items: center;
+}
+.main1{
+    padding: 0 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 3.5px;
+}
+.main1content{
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    box-shadow: 0px 2px 8px rgb(207, 199, 199);
+    background-color: #ffffff;
+    height: 150px;
+    width: 440px;
+    padding: 20px;
+}
+.main1 img{
+    width: 100%;
+}
+.main1content p{
+    margin-top: 7px;
+    font-size: 1.1rem;
+}
+.main1content h1{
+    font-size: 2.25rem;
+    font-weight: bold;
+}
